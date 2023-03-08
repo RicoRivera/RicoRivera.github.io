@@ -390,14 +390,23 @@
     color: #FFFFFF;   
 }
 .social{
+    display: flex;
     margin-left: 315px;
 
 }
-.social img{
+.social a img{
+    width: 34px;
+    height: 34px;
+}
+.social a{
+    display: block;
     width: 34px;
     height: 34px;
     margin-right:24px ;
 }
-.social img:last-of-type{
+.social a:last-of-type{
     margin-right: 0;
+}
+.social a:nth-of-type(2) img{
+    border-radius: 50%;
 }
