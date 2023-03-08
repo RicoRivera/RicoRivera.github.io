@@ -399,9 +399,6 @@
     height: 34px;
 }
 .social a{
-    display: block;
-    width: 34px;
-    height: 34px;
     margin-right:24px ;
 }
 .social a:last-of-type{
